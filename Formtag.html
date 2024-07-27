@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <center>
+      <h2>Form</h2>
+      <!-- form tag action attribute gives the info to the backend for example backend.php -->
+      <form action="backend.php">
+        <!-- here name attribute is the name through which it will be recognised by the backend -->
+        <div>Name: <input type="text" name="myname" placeholder="Name" /></div>
+        <br>
+
+        <div>DOB: <input type="date" name="DOB" /></div>
+        <br>
+
+        <div>Designation: <input type="text" name="Designation" /></div>
+        <br>
+
+        <div>Age: <input type="number" name="Age" /></div>
+        <br>
+
+        <div>Document: <input type="file" name="Document" /></div>
+        <br>
+
+        <label>Cars: </label>
+        <select>
+          <option value="" >Select</option>
+          <option value="BMW" >BMW</option>
+          <option value="Audi" >Audi</option>
+        </select>
+        <br>
+        <br>
+
+        <div>PIN: <input type="password" name="pin" /></div>
+        <br>
+
+        <div>
+          Skills: <input type="checkbox" name="skills" />Problem Solving
+          <input type="checkbox" name="skills" />Frontend Skills
+        </div>
+        <br>
+        
+        <div>
+          Gender: <input type="radio" name="gender" />Male
+          <input type="radio" name="gender" />Female
+        </div>
+        <br>
+
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset Form" />
+        </div>
+      </form>
+    </center>
+  </body>
+</html>

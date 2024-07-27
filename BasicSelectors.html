@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS Selectors</title>
+    <style>
+        /* Universal Selector (it will be applicable to all elements) */
+        *{
+            background-color: black;
+        }
+
+        /* Element Selector */
+        p{
+            color:rgb(245, 149, 5);
+            background-color: rgb(114, 103, 103);
+        }
+
+        /* id Selector */
+        #firstpara{
+            color: rgb(238, 9, 116);
+            background-color: rgb(180, 183, 190);
+        }
+
+        /* class Selector */
+        .color{
+            color: brown;
+        }
+        .bgcolor{
+            background-color: chartreuse;
+        }
+
+        /* Group Selector */
+        footer, span{
+            color: blue;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Demonstration of different kind of selectors.</h2> 
+    <p id="firstpara">This is the first sentence/paragraph.</p>
+    <p class="color bgcolor">This is the second sentence/paragraph.</p>
+    <p>This is the third sentence/paragraph.</p>
+    <p>This is the fourth sentence/paragraph.</p>
+    <span>This is a span sentence.</span>
+    <footer>This is footer.</footer>
+</body>
+</html>
